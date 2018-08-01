@@ -6,13 +6,13 @@ The following is what it can do:
 
 # Installation Instructions
 All that is required is to place this file in ~/.drush for whatever environment you are using and clear the drush using `drush cc drush`. Then you can use it immediately with these options:
-
-`html` -- Specify this as any value to send as HTML instead of plain text.
-`subject` -- The subject line to send.
-`to` -- The email address(es) to send the email to.
-`cc` -- Carbon-copy email(s), comma separated.
-`body` -- The path to the file where the email body is stored.
-`attachment` -- The path to the file where the attachment is.
+`drush email <options>`:
+- `html` -- Specify this as any value to send as HTML instead of plain text.
+- `subject` -- The subject line to send
+- `to` -- The email address(es) to send the email to.
+- `cc` -- Carbon-copy email(s), comma separated.
+- `body` -- The path to the file where the email body is stored.
+- `attachment` -- The path to the file where the attachment is.
 
 # Example usage
 
